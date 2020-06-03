@@ -67,3 +67,53 @@ Wikipedia: Data analysis is a process of inspecting, cleansing, transforming and
 ## Steps in a real project:
 
 ### Import libraries:
+
+        #Imports
+        import numpy as np
+        import pandas as pd
+        import matplotlib.pyplot as plt
+
+### Import dataset
+
+```python
+# Read the file
+dataset = pd.read_csv("datasets/netflix_titles.csv")
+```
+
+### Fast explore
+
+```python
+dataset.head()
+dataset.shape
+dataset.info()
+dataset.describe()
+```
+
+## Kind of variables:
+
+        - Numerical
+        - Categorical
+
+### Numerical Analysys and Visualitation
+
+Usually we sellect some of the features to analise.
+In the case of the Netflix dataset, we could start analizing the year of realease:
+
+```python
+dataset['release_year'].describe()
+```
+
+## Convert a variable to different data type
+
+- Numeric to string:
+
+```python
+string_out = str (numeric_in)
+```
+
+- String to numeric:
+
+```python
+integer_out = int (string_in)
+float_out = float (string_in)
+```
