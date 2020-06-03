@@ -42,6 +42,7 @@ Wikipedia: Data analysis is a process of inspecting, cleansing, transforming and
    - Reporting
 
 5. Action
+
    - Building MAchine Learning Models
    - Feature Engeenering
    - Deploy
@@ -51,4 +52,18 @@ Wikipedia: Data analysis is a process of inspecting, cleansing, transforming and
 
 ## Data Analisys vs. Data Science:
 
-![](01.png)
+![](img/01.png)
+
+## Libraries:
+
+    - Pandas
+    - Matplotlib
+    - Numpy
+    - Seaborn
+    - Statsmodels
+    - Scipy
+    - Skit-learn
+
+## Steps in a real project:
+
+### Import libraries:
