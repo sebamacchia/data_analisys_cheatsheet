@@ -103,7 +103,7 @@ In the case of the Netflix dataset, we could start analizing the year of realeas
 dataset['release_year'].describe()
 ```
 
-## Convert a variable to different data type
+## Comon operations in DATA
 
 - Numeric to string:
 
@@ -117,3 +117,30 @@ string_out = str (numeric_in)
 integer_out = int (string_in)
 float_out = float (string_in)
 ```
+
+- Transpose a dataset:
+
+```python
+trans = df.pivot (index = 'ID', columns='a', values = 'Sal')
+```
+
+- Sort a dataset:
+
+```python
+df.sort(['row1','row2'], ascending=[True, False])
+```
+
+## Visualising Data
+
+### Basic Plotting: plot
+
+```python
+dataset['release_year'].plot(kind='box', vert=False)
+```
+
+![](img/03.png)
+
+### Advance Ploting
+
+- Distribution
+  ![](img/02.png)
