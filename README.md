@@ -132,6 +132,10 @@ df.sort(['row1','row2'], ascending=[True, False])
 
 ## Visualising Data
 
+- Distribution
+
+  ![](img/02.png)
+
 ### Basic Plotting: plot
 
 ```python
@@ -141,6 +145,3 @@ dataset['release_year'].plot(kind='box', vert=False)
 ![](img/03.png)
 
 ### Advance Ploting
-
-- Distribution
-  ![](img/02.png)
